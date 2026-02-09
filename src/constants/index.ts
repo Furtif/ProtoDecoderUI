@@ -122,7 +122,7 @@ export const requestMessagesResponses = {
 	REQUEST_TYPE_METHOD_SOFT_SFIDA_PAUSE: [832, POGOProtos.Rpc.SoftSfidaPauseProto, POGOProtos.Rpc.SoftSfidaPauseOutProto],
 	REQUEST_TYPE_METHOD_SOFT_SFIDA_CAPTURE: [833, POGOProtos.Rpc.SoftSfidaCaptureProto, POGOProtos.Rpc.SoftSfidaCaptureOutProto],
 	REQUEST_TYPE_METHOD_SOFT_SFIDA_LOCATION_UPDATE: [834, POGOProtos.Rpc.SoftSfidaLocationUpdateProto, POGOProtos.Rpc.SoftSfidaLocationUpdateOutProto],
-	REQUEST_TYPE_METHOD_SOFT_SFIDA_RECAP: [835, null, null],
+	REQUEST_TYPE_METHOD_SOFT_SFIDA_RECAP: [835, POGOProtos.Rpc.SoftSfidaRecapProto, POGOProtos.Rpc.SoftSfidaRecapOutProto],
 	REQUEST_TYPE_METHOD_GET_NEW_QUESTS: [900, POGOProtos.Rpc.GetNewQuestsProto, POGOProtos.Rpc.GetNewQuestsOutProto],
 	REQUEST_TYPE_METHOD_GET_QUEST_DETAILS: [901, POGOProtos.Rpc.GetQuestDetailsProto, POGOProtos.Rpc.GetQuestDetailsOutProto],
 	REQUEST_TYPE_METHOD_COMPLETE_QUEST: [902, POGOProtos.Rpc.CompleteQuestProto, POGOProtos.Rpc.CompleteQuestOutProto],
